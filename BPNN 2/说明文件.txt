@@ -1,0 +1,24 @@
+分类：BPNN 前馈神经网络 Back Propagation Neural Network
+
+taindata(处理过数据)
+allgr3.m-起止切割程序*
+dall.m-自动删除程序*
+maf.m-滤波程序(未用)
+srmob.m-自用模版更新程序
+tain_BPNN.m-特征提取程序*
+tez.m-特征分类程序*
+time1.m-时间轴归一程序*
+ttain.m-文件保存程序*
+main.m-实际应用程序
+main_l.m-labview用应用程序
+sall.m-总训练程序
+Untitled_bptext.m-全数据测试程序
+xgx.m-手动特征比较程序
+net.mat-模版
+(*程序删除后部分其他程序直接报错)
+
+训练数据使用sall.m，直接运行即可。注意需要在程序内部相应位置更改数据源文件位置，只需要精确到文件夹所在位置
+
+实际应用使用main.m，直接运行即可。程序只能用于单次数据的识别，需要精确到文件具体位置，需要在程序内更改
+
+所有数据源文件使用txt形式保存
